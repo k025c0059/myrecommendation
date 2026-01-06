@@ -1,31 +1,51 @@
 body{
-    
+    background-image: url(../images/haikei.jpg);
 }
 .main-nav{
     display: flex;
     justify-content: center;
-    gap: 20px;
+    gap: 50px;
     list-style: none;
+    font-size: 30px;
 }
-.homelist{
-    margin-right: 100px
-}
+
 .main-nav a{
     text-decoration: none;
+    color:#5f2a2a;
+}
+.header-text{
+    font-family: "WDXL Lubrifont JP N", sans-serif;
+    font-weight: 400;
+    font-style: normal;
 }
 .home{
     text-align: center;
 }
 .title-font{
-  font-family: "RocknRoll One", sans-serif;
-  font-weight: 400;
-  font-style: normal;
-  font-size: 70px;
-  margin-left:30px;
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size: 60px;
+    margin-left:30px;
+    margin-top:60px
 }
 .main-text{
+    background-color: #e6ddd3;
+    color:#5f2a2a;
+    padding: 7px;
+    border-radius: 7px;
     text-align: center;
     margin: 0 auto;
     margin-top:100px;
-    width:60%;
+    width:70%;
+    font-size: 20px;
+}
+.font-text{
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.footer{
+    margin-top:100px;
+    background-color: #ead5c0;
 }
