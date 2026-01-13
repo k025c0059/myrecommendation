@@ -58,3 +58,64 @@ body{
     margin-top:100px;
     background-color: #ead5c0;
 }
+.mrlist{
+    display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-left: 40px;
+}
+.mrlist2{
+    display: grid;
+    margin:10px;
+    gap:5px;
+}
+.mrimage{
+    width:400px;
+    height:auto;
+}
+.mrimage2{
+    width:210px;
+    height:auto;
+}
+.mrdata{
+    background-color: #e6ddd3;
+    padding: 20px;
+    margin:20px;
+    height:720px;
+    width:1500px;
+}
+.mrdata2{
+    background-color: #e6ddd3;
+    padding:20px;
+    margin:30px;
+    height:290px;
+    width:400px;
+}
+.mrtitle{
+    font-family: "Yuji Syuku", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+}
+.mrname{
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.mrtext{
+    color:#5f2a2a;
+    background-color: #dccfc0;
+    padding:5px;
+}
+.mrfont{
+    font-size: 23px;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.mrfont2{
+    font-size:13px;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
