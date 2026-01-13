@@ -21,6 +21,15 @@ body{
 .home{
     text-align: center;
 }
+.homeimage{
+    display: flex;
+    justify-content: center;
+    gap:20px;
+}
+.rei{
+    width:150px;
+    height:auto;
+}
 .title-font{
     font-family: "RocknRoll One", sans-serif;
     font-weight: 400;
