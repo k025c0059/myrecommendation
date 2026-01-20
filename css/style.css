@@ -3,6 +3,7 @@ body{
     margin: 0;
     padding: 0;
 }
+/* ---------ホームＣＳＳ-----------------　*/
 .main-nav{
     display: flex;
     justify-content: center;
@@ -10,10 +11,12 @@ body{
     list-style: none;
     font-size: 30px;
 }
-
 .main-nav a{
     text-decoration: none;
     color:#5f2a2a;
+}
+nav a:hover{
+    color: #526e9f;
 }
 .header-text{
     font-family: "WDXL Lubrifont JP N", sans-serif;
@@ -65,6 +68,7 @@ body{
     justify-content: center; 
     align-items: center;
 }
+/* ------おすすめページＣＳＳ--------------------*/
 .mrlist{
     display: flex;
     justify-content: center;
