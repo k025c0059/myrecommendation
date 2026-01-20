@@ -1,5 +1,7 @@
 body{
     background-image: url(../images/haikei.jpg);
+    margin: 0;
+    padding: 0;
 }
 .main-nav{
     display: flex;
@@ -17,6 +19,7 @@ body{
     font-family: "WDXL Lubrifont JP N", sans-serif;
     font-weight: 400;
     font-style: normal;
+
 }
 .home{
     text-align: center;
@@ -57,17 +60,33 @@ body{
 .footer{
     margin-top:100px;
     background-color: #ead5c0;
+    height:40px;
+    display: flex;
+    justify-content: center; 
+    align-items: center;
 }
 .mrlist{
     display: flex;
     justify-content: center;
     gap:30px;
-    margin-left: 40px;
+    margin-left: 30px;
+}
+.mrlist1-2{
+     display: flex;
+    justify-content: center;
+    gap:30px;
+    margin-right: 30px;
 }
 .mrlist2{
     display: grid;
     margin:10px;
     gap:5px;
+}
+.mrlist3{
+    display: flex;
+    justify-content: center;
+    gap:50px;
+    margin-top:50px;
 }
 .mrimage{
     width:400px;
@@ -76,6 +95,15 @@ body{
 .mrimage2{
     width:210px;
     height:auto;
+}
+.mrimage3{
+    width:200px;
+    height:auto;
+}
+.mrimage3-3{
+    width:200px;
+    height:auto;
+    margin-top:10px;
 }
 .mrdata{
     background-color: #e6ddd3;
@@ -91,6 +119,12 @@ body{
     height:290px;
     width:400px;
 }
+.mrdata3{
+    background-color: #e6ddd3;
+    padding:20px;
+    width:300px;
+}
+
 .mrtitle{
     font-family: "Yuji Syuku", serif;
     font-weight: 400;
@@ -103,10 +137,17 @@ body{
     font-weight: 400;
     font-style: normal;
 }
+.mrname-1{
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    margin-top:28px;
+}
 .mrtext{
     color:#5f2a2a;
     background-color: #dccfc0;
     padding:5px;
+    border-radius: 7px;
 }
 .mrfont{
     font-size: 23px;
@@ -116,6 +157,12 @@ body{
 }
 .mrfont2{
     font-size:13px;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+.mrfont3{
+    font-size:15px;
     font-family: "Kosugi Maru", sans-serif;
     font-weight: 400;
     font-style: normal;
