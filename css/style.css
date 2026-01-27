@@ -68,6 +68,8 @@ nav a:hover{
     justify-content: center; 
     align-items: center;
 }
+
+
 /* ------おすすめページＣＳＳ--------------------*/
 .mrlist{
     display: flex;
@@ -115,6 +117,8 @@ nav a:hover{
     margin:20px;
     height:720px;
     width:1500px;
+    border-width: 1.5px;
+    border-style: solid;
 }
 .mrdata2{
     background-color: #e6ddd3;
@@ -122,11 +126,15 @@ nav a:hover{
     margin:30px;
     height:290px;
     width:400px;
+    border-width: 1.5px;
+    border-style: solid;
 }
 .mrdata3{
     background-color: #e6ddd3;
     padding:20px;
     width:300px;
+    border-width: 1.5px;
+    border-style: solid;
 }
 
 .mrtitle{
@@ -167,6 +175,54 @@ nav a:hover{
 }
 .mrfont3{
     font-size:15px;
+    font-family: "Kosugi Maru", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+
+/* -------最もおすすめＣＳＳ----------*/
+.besttitle{
+    font-family: "Yuji Syuku", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:50px;
+    margin:80px 0px;
+}
+.bestlist{
+    display: flex;
+    justify-content: center;
+    background-color: #e6ddd3;
+    gap:50px;
+    margin:20px;
+    height:470px;
+    width:900px;
+    margin-left: 9rem;
+    padding:2rem;
+    border-width: 1.5px;
+    border-style: solid;
+}
+.bestimage{
+    width:480px;
+    height:350px;
+    margin-top:50px;
+    align-items: center;
+}
+.bestname{
+    font-family: "RocknRoll One", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+}
+.besttext{
+    color:#5f2a2a;
+    background-color: #dccfc0;
+    padding:5px;
+    border-radius: 7px;
+    width:350px
+}
+.bestfont{
+    font-size:13px;
     font-family: "Kosugi Maru", sans-serif;
     font-weight: 400;
     font-style: normal;
