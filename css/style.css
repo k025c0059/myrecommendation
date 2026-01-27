@@ -227,3 +227,20 @@ nav a:hover{
     font-weight: 400;
     font-style: normal;
 }
+.bestato{
+    font-family: "Yuji Syuku", serif;
+    font-weight: 400;
+    font-style: normal;
+    font-size:40px;
+    margin-top:100px;
+}
+.atogaki{
+    background-color: #e6ddd3;
+    color:#5f2a2a;
+    padding: 7px;
+    border-radius: 7px;
+    text-align: center;
+    margin: 0 auto;
+    width:90%;
+    font-size: 16px;  
+}
